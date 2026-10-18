@@ -1,0 +1,14 @@
+Action,Product ID,Item name,Quantity,Unit,Reorder level,Request ID
+add,,Rice,10,kg,,
+remove,,Sugar,5,kg,,
+set,,Salt,50,packet,,
+add,,Flour,10,kg,,
+remove,,Cooking Oil,100,litre,,
+add,,Rice,-5,kg,,
+add,,Rice,5,litre,,
+sell,,Salt,2,packet,,
+create,,Sugar,10,kg,5,
+create,,Tea Leaves,25,packet,,
+create,,Tea Leaves,25,packet,8,
+add,,Salt,3,packet,,DUP-001
+add,,Salt,3,packet,,DUP-001

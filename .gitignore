@@ -1,0 +1,7 @@
+# Never commit real credentials, tokens or exports from a live n8n instance
+.env
+*.token
+credentials*.json
+*.bak
+.DS_Store
+Thumbs.db

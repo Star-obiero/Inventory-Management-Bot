@@ -1,0 +1,9 @@
+Action,Product ID,Item name,Quantity,Unit,Reorder level,Request ID
+create,,Rice,100,kg,20,
+create,,Sugar,60,kg,15,
+create,,Cooking Oil,40,litre,10,
+create,,Salt,30,packet,10,
+add,,Rice,50,kg,,
+remove,,Sugar,20,kg,,
+remove,,Cooking Oil,32,litre,,
+set,,Salt,45,packet,,
