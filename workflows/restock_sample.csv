@@ -1,0 +1,9 @@
+Action,Product ID,Item name,Quantity,Unit,Reorder level,Unit price,Cost price,Selling price,Request ID
+add,P001,Apples,40,kg,,32,,,RESTOCK-001
+add,P002,Bananas,60,kg,,5,,,RESTOCK-002
+add,P003,Milk,50,litre,,30,,,RESTOCK-003
+add,P004,Sugar,25,kg,,180,,,RESTOCK-004
+add,P005,Mangoes,30,kg,,28,,,RESTOCK-005
+add,P006,Cherry,20,kg,,62,,,RESTOCK-006
+add,P007,Strawberry,15,kg,,70,,,RESTOCK-007
+add,P008,Biscuits,120,packet,,24,,,RESTOCK-008

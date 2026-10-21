@@ -1,0 +1,9 @@
+Action,Product ID,Item name,Quantity,Unit,Reorder level,Unit price,Cost price,Selling price,Request ID
+create,,Spaghetti 500g,200,packet,40,,55,75,
+create,,Cocoa Powder,50,tin,10,,180,240,
+create,,Biscuits,300,packet,60,,25,35,
+add,,Spaghetti 500g,100,packet,,,,,
+add,,Biscuits,120,packet,,22,,,
+remove,,Spaghetti 500g,80,packet,,,,,
+remove,,Cocoa Powder,15,tin,,,,,
+set,,Biscuits,400,packet,,,,,
