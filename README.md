@@ -6,7 +6,7 @@ Built with **n8n**, **Google Sheets**, **Telegram**, **Gmail** and **Google Gemi
 
 > Built for small shops that cannot justify a till, scanners and software licences. It is not a point-of-sale replacement. It records what your team tells it, keeps an audit trail of every change, and checks the stock with counts and alerts.
 
-![Telegram chat: a natural-language sale, confirmation, and the daily report](docs/images/telegram-chat.png)
+![Telegram chat: a natural-language sale, confirmation, and the daily report](docs/images/‎ManageyourInventory.png)
 
 ## What it does
 
@@ -22,7 +22,7 @@ Built with **n8n**, **Google Sheets**, **Telegram**, **Gmail** and **Google Gemi
 - **Bulk import.** Send a CSV or Excel file to update many products at once. A dry run checks it first without changing anything.
 - **Barcode support (optional).** A scanned barcode records a sale. Barcodes are stored in a `Barcode` column of the Inventory sheet.
 
-![The evening report email](docs/images/daily-email-report.png)
+![The evening report email](docs/images/Daily-report.png)
 
 ## How it works
 
@@ -52,7 +52,7 @@ The project is made of two n8n workflows, plus the evening report that runs on a
 | **Inventory Stock Update Engine** | A sub-workflow that validates each change, writes it to the sheet, verifies it by reading it back, logs it and sends low-stock emails |
 | **Daily report (scheduled)** | Calculates the day's sales and profit, emails and messages the manager and saves the daily row |
 
-![The n8n workflow canvas](docs/images/n8n-workflow.png)
+![The n8n workflow canvas](docs/images/Bulk-Inventory-Import.png)
 
 ## Google Sheet layout
 
